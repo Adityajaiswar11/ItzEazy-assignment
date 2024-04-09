@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- first seactin start here -->
+    <h1 class="main-head">Driving License Renewal</h1>
+    <div class="container">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="heading">
+            <h2>Let's get started!</h2>
+            <p>Add your details [As per your registered records]</p>
+        </div>
+        <div class="question">
+            <h3 for="text1">Name</h3>
+            <input type="text" id="text1" class="text-input" placeholder="Enter name">
+        </div>
+
+        <h3>Nature of Driving License</h3>
+        <div class="radio-fields">
+            <div class="radio-questions">
+                <input type="radio" id="radio1" name="radio" class="radio">
+                <label for="radio3">Private</label>
+            </div>
+
+            <div class="radio-questions">
+                <input type="radio" id="radio2" name="radio" class="radio">
+                <label for="radio3">Commercial</label>
+            </div>
+
+
+
+        </div>
+        <h3>Type of Previous Driving License</h3>
+        <div class="radio-fields">
+            <div class="radio-questions">
+                <input type="radio" id="radio3" name="radio_two" class="radio_two">
+                <label for="radio3">Paper Driving License</label><br>
+            </div>
+
+            <div class="radio-questions">
+                <input type="radio" id="radio4" name="radio_two" class="radio_two">
+                <label for="radio3">Smart Driving License</label><br>
+            </div>
+
+
+
+        </div>
+        <div class="btn-box">
+            <button><span>
+                    << /span> Back</button>
+        </div>
+    </div>
+
+    <!-- first seactin ends here -->
+
+    <!-- second seactin start here -->
+    <h1 class="main-head">Driving License Renewal</h1>
+    <div class="container">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="heading">
+            <h2>Let's get started!</h2>
+            <p>Add your details [As per your registered records]</p>
+        </div>
+        <div class="question">
+            <h3 for="text1">Place where Driving License was issued</h3>
+            <input type="text" id="text1" class="text-input" placeholder="Enter Place Name">
+        </div>
+
+        <h3>issued Year of License</h3>
+        <div class="select-fields">
+
+            <select id="select2" class="select-box">
+                <option value="" hidden>Choose issued Year of License</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+
+
+
+
+        </div>
+        <h3>Type of Previous Driving License</h3>
+        <div class="select-fields">
+
+
+            <select id="select2" class="select-box">
+                <option value="" hidden>Choose Expired Year of License</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+            </select>
+
+
+
+
+        </div>
+        <div class="btn-box">
+            <button><span>
+                    << /span> Back</button>
+        </div>
+        <!-- second seactin ends here -->
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-color: rgba(0, 0, 0, 0.925);
+}
+.container {
+  max-width: 430px;
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main-head {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  color: white;
+  font-weight: 600;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.heading h2 {
+  color: rgb(235, 47, 22);
+  padding: 8px 0;
+}
+.heading p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+}
+.question {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.question h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 15px 4px;
+  margin-bottom: 0.3rem;
+  opacity: 0.9;
+}
+.question .text-input {
+  width: 100%;
+  height: 2.3rem;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: beige;
+}
+.radio-fields {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.radio-fields .radio-questions {
+  width: 50%;
+  background-color: beige;
+  margin-top: 1rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: gray;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.radio-questions .radio,
+.radio_two {
+  cursor: pointer;
+}
+.container h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 5px 0;
+  opacity: 0.9;
+}
+.btn-box {
+  width: 100%;
+  text-align: center;
+  padding: 0.4rem;
+}
+.btn-box button {
+  padding: 0.4rem;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: rgb(235, 47, 22);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+button span {
+  padding: 0 10px;
+}
+
+.select-fields {
+  width: 100%;
+  font-weight: 500;
+  position: relative;
+}
+.select-fields .select-box {
+  margin: 8px 0;
+  height: 35px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background-color: beige;
+  border-radius: 15px;
+  color: gray;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+}
+
+.select-box option {
+  background-color: white;
+  font-size: 0.9rem;
+  color: black;
+  outline: none;
+  border: 2px solid red;
+  padding: 15px 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 7px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: rgb(235, 47, 22);
+  transition: width 0.3s ease;
+}
