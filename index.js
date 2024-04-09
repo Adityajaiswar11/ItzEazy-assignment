@@ -1,6 +1,7 @@
 
   const inputs = document.querySelectorAll('.text-input, .select-box, .radio,.radio_two'); //selected multiple class names
-  const progressBar = document.getElementById('progress'); //selected progress bar id name
+  const progressBar = document.querySelectorAll('.progress'); //selected progress bar
+
 
   //inputs is nodelist and using forEach for each element iteration
   inputs.forEach(input => {
@@ -22,5 +23,6 @@
     });
 
     const progressPercent = (filledInputs.length / inputs.length) * 100; // percentage for the progress bar 
-    progressBar.style.width = `${progressPercent}%`; //added width for the progress bar
+    progressBar[0].style.width = `${progressPercent}%`; //added width for the progress bar
+    progressBar[1].style.width = `${progressPercent}%`; //added width for the progress bar
   }
