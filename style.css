@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  
 }
 
 body {
@@ -156,4 +158,39 @@ button span {
   height: 100%;
   background-color: rgb(235, 47, 22);
   transition: width 0.3s ease;
+}
+
+#box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+#box #b1{
+   width:400px;
+   height: 300px;
+   background-color: red;
+}
+#box #b2{
+  width:400px;
+   height: 300px;
+   background-color: rgb(168, 14, 14);
+}
+#box #b3{
+  width:400px;
+   height: 300px;
+   background-color: rgb(16, 94, 9);
+}
+#box #b4{
+  width:400px;
+   height: 300px;
+   background-color: rgb(44, 23, 100);
+}
+
+.head{
+  padding: 2rem 0px;
+  color: #ddd;
+  font-size: 2rem;
+  text-align: center;
 }
